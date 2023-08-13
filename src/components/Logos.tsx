@@ -3,7 +3,7 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import kylie from '../assets/images/kylie.jpg'
-import './logo.scss'
+import '../assets/css/logo.scss'
 import Image from 'react-bootstrap/Image';
 import airbnb from '../assets/images/airbnb.png'
 import emirates from '../assets/images/emirates.png'

@@ -1,7 +1,28 @@
 .hero-wrapper {
-  background-image: url(../assets/images/hero-bg.png);
+  background-image: url(../images/hero-bg.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  padding-bottom: 114px;
+}
+
+.dropdown-menu {
+  background-color: rgba(217, 217, 217, 0.34) !important;
+  padding: 8px 8px !important;
+  border: 0px !important;
+
+  .dropdown-item {
+    color: aliceblue;
+    font-size: 12px;
+  }
+
+  .dropdown-item:hover {
+    background-color: transparent !important;
+    color: aliceblue;
+  }
+}
+
+.dropdown-item {
+  ///color: #ffffff !important;
 }
 
 .hero-wrapper nav {
@@ -25,6 +46,7 @@
 .hero-text-wrapper {
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 100px;
 
   .hero-text-title {
     max-width: 400px;

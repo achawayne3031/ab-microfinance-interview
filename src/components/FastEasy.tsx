@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import './fast-easy.scss'
+import '../assets/css/fast-easy.scss'
 import fastEasy from '../assets/images/fast-easy.png'
 
 

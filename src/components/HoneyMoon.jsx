@@ -1,6 +1,6 @@
 import React from 'react'
 import honeyMoon from '../assets/images/honey-moon.png'
-import './honeymoon.scss'
+import '../assets/css/honeymoon.scss'
 
 
 

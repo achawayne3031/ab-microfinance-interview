@@ -1,6 +1,6 @@
 
 import React from 'react'
-import './hero.scss'
+import '../assets/css/hero.scss'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,6 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import Avatar from '@mui/material/Avatar';
 import AvatarGroup from '@mui/material/AvatarGroup';
+import kylie from '../assets/images/kylie.jpg'
 
 const HeloPage = () => {
   return (
@@ -32,12 +33,13 @@ const HeloPage = () => {
             <Nav className='navlink-item'>
                 <Nav.Link href="#features">Home</Nav.Link>
                 <Nav.Link href="#pricing">About</Nav.Link>
-                <NavDropdown title="Services" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                    Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                <NavDropdown title="Services" id="collasible-nav-dropdown" className='navbar-dropdown-wrapper'>
+                    <NavDropdown.Item href="#action/3.1">Honeymoon Packages</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">
+                        Tour Packages
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Musical Events</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Build Package</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#pricing">Upcoming Packages</Nav.Link>
             </Nav>
@@ -93,11 +95,11 @@ const HeloPage = () => {
             <div className='parked-icon-wrapper mt-3'>
                 <div className='avatar-wrapper'>
                     <AvatarGroup max={4}>
-                        <Avatar sx={{ width: 30, height: 30 }} src="../assets/images/hero-bg.png" />
-                        <Avatar sx={{ width: 30, height: 30 }} src="../assets/images/hero-bg.png" />
-                        <Avatar sx={{ width: 30, height: 30 }} src="../assets/images/hero-bg.png" />
-                        <Avatar  sx={{ width: 30, height: 30 }} src="../assets/images/hero-bg.png" />
-                        <Avatar sx={{ width: 30, height: 30 }} src="../assets/images/hero-bg.png" />
+                        <Avatar sx={{ width: 30, height: 30 }} src={kylie} />
+                        <Avatar sx={{ width: 30, height: 30 }} src={kylie} />
+                        <Avatar sx={{ width: 30, height: 30 }} src={kylie} />
+                        <Avatar  sx={{ width: 30, height: 30 }} src={kylie} />
+                        <Avatar sx={{ width: 30, height: 30 }} src={kylie} />
                     </AvatarGroup>
                 </div>
                 <div>

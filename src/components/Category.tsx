@@ -1,5 +1,5 @@
 import React from 'react'
-import './category.scss'
+import '../assets/css/category.scss'
 import flight from '../assets/images/flight.png'
 import meds from '../assets/images/meds.png'
 import religion from '../assets/images/religion.png'
