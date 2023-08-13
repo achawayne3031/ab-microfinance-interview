@@ -1,0 +1,121 @@
+.honeymoon-wrapper {
+  padding-top: 100px;
+
+  .honeymoon-content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    .honeymoon-top-title {
+      font-size: 13px;
+      color: #df6951;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      font-weight: 700;
+    }
+
+    .honeymoon-top-text {
+      color: #181e4b;
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 25px;
+      margin-top: 5px;
+    }
+
+    .honeymoon-text {
+      line-height: 1.7;
+      font-size: 12px;
+    }
+
+    .view-btn {
+      border-radius: 5px;
+      border: 0px;
+      background-color: #df6951;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 8px;
+    }
+
+    .category-item {
+      text-align: center;
+      align-items: center;
+      max-width: 150px;
+      justify-self: center;
+      position: relative;
+      border-radius: 6px;
+      z-index: 9999;
+
+      .category-item-title {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 15px;
+      }
+
+      .category-item-text {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .honeymoon-wrapper {
+    padding-top: 100px;
+
+    .honeymoon-content-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 50px;
+      align-items: center;
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .honeymoon-top-title {
+        font-size: 11px;
+      }
+
+      .honeymoon-top-text {
+        font-size: 25px;
+      }
+
+      .honeymoon-text {
+        line-height: 1.7;
+        font-size: 12px;
+      }
+
+      .view-btn {
+        border-radius: 5px;
+        border: 0px;
+        background-color: #df6951;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 13px;
+        padding: 8px;
+      }
+
+      .category-item {
+        text-align: center;
+        align-items: center;
+        max-width: 150px;
+        justify-self: center;
+        position: relative;
+        border-radius: 6px;
+        z-index: 9999;
+
+        .category-item-title {
+          font-size: 13px;
+          font-weight: 600;
+          margin-top: 15px;
+        }
+
+        .category-item-text {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

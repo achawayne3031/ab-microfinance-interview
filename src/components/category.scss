@@ -1,0 +1,104 @@
+.category-wrapper {
+  padding-top: 100px;
+
+  .category-top-title {
+    font-size: 13px;
+    color: #df6951;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  .category-top-text {
+    color: #181e4b;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+
+  .category-content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    // .flight-props::before {
+    //   content: '';
+    //   background-color: #df6951;
+    //   border-radius: 10px;
+    //   position: absolute;
+    //   bottom: -30px;
+
+    //   height: 60px;
+    //   width: 60px;
+    //   ////  z-index: -1;
+    //   left: -21px;
+    //   bottom: -18px;
+    // }
+
+    .category-item {
+      text-align: center;
+      align-items: center;
+      max-width: 150px;
+      justify-self: center;
+      position: relative;
+      border-radius: 6px;
+      z-index: 9999;
+
+      .category-item-title {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 15px;
+      }
+
+      .category-item-text {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .category-wrapper {
+    padding-top: 100px;
+
+    .category-top-title {
+      font-size: 11px;
+    }
+
+    .category-top-text {
+      color: #181e4b;
+      font-size: 30px;
+    }
+
+    .category-content-wrapper {
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .category-item {
+        text-align: center;
+        align-items: center;
+        max-width: 150px;
+        justify-self: center;
+        position: relative;
+        border-radius: 6px;
+        z-index: 9999;
+
+        .category-item-title {
+          font-size: 13px;
+          font-weight: 600;
+          margin-top: 15px;
+        }
+
+        .category-item-text {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

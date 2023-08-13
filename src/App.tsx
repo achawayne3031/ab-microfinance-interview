@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import  OverLayer from './components/OverLayer'
+import NavBar from './template/NavBar'
+import HeloPage from './components/HeloPage';
+import Logos from './components/Logos';
+import Category from './components/Category';
+import HoneyMoon from './components/HoneyMoon';
+import FastEasy from './components/FastEasy';
+import Footer from './components/Footer';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeloPage />
+      <Logos />
+      <Category />
+      <HoneyMoon />
+      <FastEasy />
+      <Footer />
     </div>
   );
 }
